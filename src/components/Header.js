@@ -1,17 +1,7 @@
 import React from "react"
-import {connect} from "react-redux";
-import EmployeeCard from "../EmployeeCard/EmployeeCard";
-import {withStyles} from "@material-ui/core/styles";
+import withStyles from "@material-ui/core/styles/withStyles";
 
 const styles = {
-  wrapper: {
-    minHeight: "100vh",
-    padding: '16px 0 0 20px',
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    background: "#F6F8F9"
-  },
   link: {
     cursor: "pointer",
     alignSelf: "flex-start"
@@ -24,23 +14,11 @@ const styles = {
   }
 };
 
-const EmployeeTable = ({searchResults, classes}) => {
-
+const Header = ({classes}) => {
   return (
-    <div className={classes.wrapper}>
-      <a href="https://foxford.ru/" className={classes.link}>
-        <header className={classes.header}/>
-      </a>
-      <h1>Наши преподаватели</h1>
-      <EmployeeCard data={searchResults}/>
-    </div>
+    <a href="https://foxford.ru/" className={classes.link}>
+      <header className={classes.header}/>
+    </a>
   )
 };
-const mapStateToProps = (state) => {
-  return {
-    searchResults: state
-  }
-};
-export default withStyles(styles)(connect(
-  mapStateToProps
-)(EmployeeTable));
+export default withStyles(styles)(Header)
