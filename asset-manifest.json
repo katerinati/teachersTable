@@ -1,22 +1,19 @@
 {
   "files": {
-    "main.css": "/teachersTable/static/css/main.b8720160.chunk.css",
-    "main.js": "/teachersTable/static/js/main.0f496384.chunk.js",
-    "main.js.map": "/teachersTable/static/js/main.0f496384.chunk.js.map",
-    "runtime-main.js": "/teachersTable/static/js/runtime-main.c1811695.js",
-    "runtime-main.js.map": "/teachersTable/static/js/runtime-main.c1811695.js.map",
-    "static/js/2.85c8fca9.chunk.js": "/teachersTable/static/js/2.85c8fca9.chunk.js",
-    "static/js/2.85c8fca9.chunk.js.map": "/teachersTable/static/js/2.85c8fca9.chunk.js.map",
-    "static/js/3.db6eab02.chunk.js": "/teachersTable/static/js/3.db6eab02.chunk.js",
-    "static/js/3.db6eab02.chunk.js.map": "/teachersTable/static/js/3.db6eab02.chunk.js.map",
+    "main.js": "/teachersTable/static/js/main.a5350809.chunk.js",
+    "main.js.map": "/teachersTable/static/js/main.a5350809.chunk.js.map",
+    "runtime-main.js": "/teachersTable/static/js/runtime-main.19a6bf68.js",
+    "runtime-main.js.map": "/teachersTable/static/js/runtime-main.19a6bf68.js.map",
+    "static/js/2.2f487590.chunk.js": "/teachersTable/static/js/2.2f487590.chunk.js",
+    "static/js/2.2f487590.chunk.js.map": "/teachersTable/static/js/2.2f487590.chunk.js.map",
+    "static/js/3.b0da6272.chunk.js": "/teachersTable/static/js/3.b0da6272.chunk.js",
+    "static/js/3.b0da6272.chunk.js.map": "/teachersTable/static/js/3.b0da6272.chunk.js.map",
     "index.html": "/teachersTable/index.html",
-    "static/css/main.b8720160.chunk.css.map": "/teachersTable/static/css/main.b8720160.chunk.css.map",
-    "static/js/2.85c8fca9.chunk.js.LICENSE.txt": "/teachersTable/static/js/2.85c8fca9.chunk.js.LICENSE.txt"
+    "static/js/2.2f487590.chunk.js.LICENSE.txt": "/teachersTable/static/js/2.2f487590.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c1811695.js",
-    "static/js/2.85c8fca9.chunk.js",
-    "static/css/main.b8720160.chunk.css",
-    "static/js/main.0f496384.chunk.js"
+    "static/js/runtime-main.19a6bf68.js",
+    "static/js/2.2f487590.chunk.js",
+    "static/js/main.a5350809.chunk.js"
   ]
 }
